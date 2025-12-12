@@ -17,3 +17,5 @@ const product = {
     Free shipping available
   </div>
 </ProductDisplay>
+
+export default product

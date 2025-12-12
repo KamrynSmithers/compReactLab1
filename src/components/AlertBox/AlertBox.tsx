@@ -32,3 +32,5 @@ export const AlertBox: React.FC<AlertBoxProps> = ({
     </div>
   );
 };
+
+export default AlertBox
