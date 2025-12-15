@@ -1,3 +1,6 @@
+import React from "react";
+import { ProductDisplayProps } from "../../types";
+
 const product = {
   id: '1',
   name: 'Wireless Headphones',
@@ -6,16 +9,5 @@ const product = {
   imageUrl: 'https://example.com/headphones.jpg',
   inStock: true
 };
- 
-<ProductDisplay
-  product={product}
-  showDescription={true}
-  showStockStatus={true}
-  onAddToCart={(productId) => alert(`Added product ${productId} to cart`)}
->
-  <div className="text-sm text-gray-500">
-    Free shipping available
-  </div>
-</ProductDisplay>
 
 export default product
