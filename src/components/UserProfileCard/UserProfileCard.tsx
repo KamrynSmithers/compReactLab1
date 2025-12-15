@@ -14,6 +14,7 @@ export const UserProfileCard: React.FC<UserProfileCardProps> = ({
       <div className="flex items-center gap-4">
         {user.avatarUrl && (
           <img
+          id="pic"
             src={user.avatarUrl}
             alt={user.name}
             className="w-16 h-16 rounded-full object-cover"
@@ -41,10 +42,10 @@ export const UserProfileCard: React.FC<UserProfileCardProps> = ({
           onClick={() => onEdit(user.id)}
           className="mt-4 w-full bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600"
         >
-          Edit Profile
+          Edit Profile 
         </button>
+        
       )}
     </div>
   );
 };
-

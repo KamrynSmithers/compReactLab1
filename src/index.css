@@ -28,6 +28,8 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  display: flex;
+  text-align: center;
 }
 
 h1 {
@@ -35,3 +37,6 @@ h1 {
   line-height: 1.1;
 }
 
+#pic {
+  height: 50px;
+}
